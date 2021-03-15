@@ -1,0 +1,5 @@
+export const ADD_ANSWER = 'ADD_ANSWER'
+export const VOTE_UP = 'VOTE_UP'
+export const VOTE_DOWN = 'VOTE_DOWN'
+export const DELETE_ANSWER = 'DELETE_ANSWER'
+export const UPDATE_ANSWER = 'UPDATE_ANSWER'

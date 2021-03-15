@@ -1,0 +1,56 @@
+.question-icon{
+    position: static !important;
+}
+.right-side{
+    max-width: 90px;
+    text-align:center;
+}
+.done{
+    top: 23px;
+    left: 1px;
+}
+
+.lock{
+    top: 27px !important;
+    left: 8px !important;
+}
+
+.down{
+    top: 48px;
+    left: 26px;
+    cursor: pointer;
+}
+
+.down:hover{
+    color: red !important;
+}
+
+.up{
+    top: 5px;
+    left: 27px;
+    cursor: pointer;
+}
+
+.up:hover{
+    color: green !important;
+}
+
+.writername{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.subtitle{
+    line-height: 2.2 !important;
+}
+.questionDivider{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.questionVoteCount{
+    font-size: 10px;
+    color:white;
+  }
