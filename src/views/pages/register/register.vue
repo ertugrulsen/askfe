@@ -81,7 +81,7 @@
               </v-col>
               <v-col cols="12" sm="6" >
                 <p class="h6 ">{{GetLabel(this, "authentication_register_already_have_account")}}
-              <router-link :to="{ name: 'Login'}" class="nav-link v-list-item__content"> 
+              <router-link :to="{ name: 'login'}" class="nav-link v-list-item__content"> 
               <span class="item-text">{{ GetLabel(this, 'authentication_login') }}</span> 
               </router-link> 
                 </p>
