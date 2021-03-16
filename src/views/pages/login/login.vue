@@ -24,9 +24,9 @@
               </v-col>
               <v-col cols="12" sm="6" >
                 <p class="h6 ">{{ GetLabel(this, 'authentication_login_dont_have_account') }}
-                  <a href="/register">
-                    <span class="item-text">{{ GetLabel(this, 'authentication_register') }}</span>
-                  </a>
+                 <router-link :to="{ name: 'Register'}" class="nav-link v-list-item__content"> 
+                 <span class="item-text">{{ GetLabel(this, 'authentication_register') }}</span> 
+                 </router-link>
                 </p>
               </v-col>
             </v-row>
